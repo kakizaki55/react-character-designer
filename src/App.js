@@ -10,9 +10,10 @@ function App() {
   const [pants, setPants] = useState('');
   const [phrase, setPhrase] = useState('');
   const [phraseList, setPhraseList] = useState([]);
-  const [headCount, setHeadCount] = useState(0);
-  const [middleCount, setMiddleCount] = useState(0);
-  const [pantCount, setPantCount] = useState(0);
+  // const [headCount, setHeadCount] = useState(0);
+  // const [middleCount, setMiddleCount] = useState(0);
+  // const [pantCount, setPantCount] = useState(0);
+  const [phraseCount, setPhraseCount] = useState(0);
 
   return (
     <div className="App">
@@ -25,12 +26,10 @@ function App() {
           setPhrase,
           phrase,
           setPhraseList,
-          setHeadCount,
-          setMiddleCount,
-          setPantCount,
+          setPhraseCount,
         }}
       />
-      <CounterDisplay {...{ headCount, middleCount, pantCount }} />
+      <CounterDisplay {...{ phraseCount }} />
     </div>
   );
 }

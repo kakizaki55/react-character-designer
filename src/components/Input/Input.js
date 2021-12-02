@@ -1,8 +1,17 @@
 import React from 'react';
 
-export default function Input({ setHead, setMiddle, setPants, setPhrase, phrase, setPhraseList }) {
+export default function Input({
+  setHead,
+  setMiddle,
+  setPants,
+  setPhrase,
+  phrase,
+  setPhraseList,
+  setPhraseCount,
+}) {
   const appendPhrase = () => {
     setPhraseList((prevState) => [...prevState, phrase]);
+    setPhraseCount((prevState) => prevState + 1);
     setPhrase('');
   };
 
