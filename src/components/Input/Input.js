@@ -8,11 +8,26 @@ export default function Input({
   phrase,
   setPhraseList,
   setPhraseCount,
+  setHeadCount,
+  setMiddleCount,
+  setPantCount,
 }) {
   const appendPhrase = () => {
     setPhraseList((prevState) => [...prevState, phrase]);
     setPhraseCount((prevState) => prevState + 1);
     setPhrase('');
+  };
+  const handleHead = (e) => {
+    setHead(e.target.value);
+    setHeadCount((prevState) => prevState + 1);
+  };
+  const handleMiddle = (e) => {
+    setMiddle(e.target.value);
+    setMiddleCount((prevState) => prevState + 1);
+  };
+  const handlePants = (e) => {
+    setPants(e.target.value);
+    setPantCount((prevState) => prevState + 1);
   };
 
   return (
@@ -20,17 +35,17 @@ export default function Input({
       <div>
         <label>
           Head:
-          <select onChange={(e) => setHead(e.target.value)}>
-            <option value="bird-head">bird</option>
-            <option value="dog-head">dog</option>
-            <option value="duck-head">duck</option>
-            <option value="horse-head">horse</option>
+          <select onChange={handleHead}>
+            <option value="dead-tired-head">tired</option>
+            <option value="money-head">money</option>
+            <option value="skeptical-head">skeptical</option>
+            <option value="smile-head">smile</option>
           </select>
         </label>
 
         <label>
           Pants:
-          <select onChange={(e) => setMiddle(e.target.value)}>
+          <select onChange={handleMiddle}>
             <option value="blue-middle">blue</option>
             <option value="dress-middle">dress</option>
             <option value="pink-middle">pink</option>
@@ -39,7 +54,7 @@ export default function Input({
         </label>
         <label>
           Pants:
-          <select onChange={(e) => setPants(e.target.value)}>
+          <select onChange={handlePants}>
             <option value="blue-pants">blue</option>
             <option value="dog-pants">dog</option>
             <option value="leg-pants">leg</option>

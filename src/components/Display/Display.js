@@ -9,7 +9,10 @@ export default function Display({ head, middle, pants, phraseList }) {
         <img width="200px" src={process.env.PUBLIC_URL + `/assets/${pants}.png`} />
       </div>
       <div>
-        <span> {phraseList}</span>
+        PhraseList:{' '}
+        {phraseList.map((elem) => (
+          <p key={elem}> {elem} </p>
+        ))}
       </div>
     </>
   );
