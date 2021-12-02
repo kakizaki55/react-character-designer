@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Display({ head, middle, pants, phrase }) {
+export default function Display({ head, middle, pants, phraseList }) {
   return (
     <>
       <div className="player-container">
@@ -9,7 +9,7 @@ export default function Display({ head, middle, pants, phrase }) {
         <img width="200px" src={process.env.PUBLIC_URL + `/assets/${pants}.png`} />
       </div>
       <div>
-        <span> {phrase}</span>
+        <span> {phraseList}</span>
       </div>
     </>
   );

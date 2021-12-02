@@ -1,6 +1,11 @@
 import React from 'react';
 
-export default function Input({ setHead, setMiddle, setPants, setPhrase, phrase }) {
+export default function Input({ setHead, setMiddle, setPants, setPhrase, phrase, setPhraseList }) {
+  const appendPhrase = () => {
+    setPhraseList((prevState) => [...prevState, phrase]);
+    setPhrase('');
+  };
+
   return (
     <>
       <div>
@@ -35,11 +40,12 @@ export default function Input({ setHead, setMiddle, setPants, setPhrase, phrase 
         <label>
           Add a catch phrase:
           <input
+            value={phrase}
             type="text"
             placeholder="input here"
             onChange={(e) => setPhrase(e.target.value)}
           ></input>
-          <button>save</button>
+          <button onClick={appendPhrase}>save</button>
         </label>
       </div>
     </>
