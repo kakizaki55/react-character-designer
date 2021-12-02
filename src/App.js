@@ -1,14 +1,17 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 import Display from './components/Display/Display';
 import Input from './components/Input/Input';
+import CounterDisplay from './components/CounterDisplay/CounterDisplay';
 
 function App() {
+  const [head, setHead] = useState('');
+
   return (
     <div className="App">
-      <header className="App-header"></header>
-      <Display />
-      <Input />
+      <Display {...{ head }} />
+      <Input {...{ setHead }} />
+      <CounterDisplay />
     </div>
   );
 }
