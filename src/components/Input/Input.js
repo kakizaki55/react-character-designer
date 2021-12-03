@@ -1,4 +1,5 @@
 import React from 'react';
+import './Input.css';
 
 export default function Input({
   setHead,
@@ -32,7 +33,7 @@ export default function Input({
 
   return (
     <>
-      <div>
+      <div className="charctor-creator">
         <label>
           Head:
           <select onChange={handleHead}>
@@ -44,20 +45,20 @@ export default function Input({
         </label>
 
         <label>
-          Pants:
+          Shirts:
           <select onChange={handleMiddle}>
-            <option value="blue-middle">blue</option>
-            <option value="dress-middle">dress</option>
-            <option value="pink-middle">pink</option>
-            <option value="red-middle">red</option>
+            <option value="black-shirt">black</option>
+            <option value="green-shirt">green</option>
+            <option value="purple-shirt">purple</option>
+            <option value="red-shirt">red</option>
           </select>
         </label>
         <label>
           Pants:
           <select onChange={handlePants}>
-            <option value="blue-pants">blue</option>
-            <option value="dog-pants">dog</option>
-            <option value="leg-pants">leg</option>
+            <option value="black-pants">black</option>
+            <option value="brown-pants">bowrn</option>
+            <option value="green-pants">green</option>
             <option value="white-pants">white</option>
           </select>
         </label>

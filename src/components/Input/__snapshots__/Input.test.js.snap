@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the input section of the UI 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="charctor-creator"
+      >
+        <label>
+          Head:
+          <select>
+            <option
+              value="dead-tired-head"
+            >
+              tired
+            </option>
+            <option
+              value="money-head"
+            >
+              money
+            </option>
+            <option
+              value="skeptical-head"
+            >
+              skeptical
+            </option>
+            <option
+              value="smile-head"
+            >
+              smile
+            </option>
+          </select>
+        </label>
+        <label>
+          Shirts:
+          <select>
+            <option
+              value="black-shirt"
+            >
+              black
+            </option>
+            <option
+              value="green-shirt"
+            >
+              green
+            </option>
+            <option
+              value="purple-shirt"
+            >
+              purple
+            </option>
+            <option
+              value="red-shirt"
+            >
+              red
+            </option>
+          </select>
+        </label>
+        <label>
+          Pants:
+          <select>
+            <option
+              value="black-pants"
+            >
+              black
+            </option>
+            <option
+              value="brown-pants"
+            >
+              bowrn
+            </option>
+            <option
+              value="green-pants"
+            >
+              green
+            </option>
+            <option
+              value="white-pants"
+            >
+              white
+            </option>
+          </select>
+        </label>
+        <label>
+          Add a catch phrase:
+          <input
+            placeholder="input here"
+            type="text"
+            value=""
+          />
+          <button>
+            save
+          </button>
+        </label>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="charctor-creator"
+    >
+      <label>
+        Head:
+        <select>
+          <option
+            value="dead-tired-head"
+          >
+            tired
+          </option>
+          <option
+            value="money-head"
+          >
+            money
+          </option>
+          <option
+            value="skeptical-head"
+          >
+            skeptical
+          </option>
+          <option
+            value="smile-head"
+          >
+            smile
+          </option>
+        </select>
+      </label>
+      <label>
+        Shirts:
+        <select>
+          <option
+            value="black-shirt"
+          >
+            black
+          </option>
+          <option
+            value="green-shirt"
+          >
+            green
+          </option>
+          <option
+            value="purple-shirt"
+          >
+            purple
+          </option>
+          <option
+            value="red-shirt"
+          >
+            red
+          </option>
+        </select>
+      </label>
+      <label>
+        Pants:
+        <select>
+          <option
+            value="black-pants"
+          >
+            black
+          </option>
+          <option
+            value="brown-pants"
+          >
+            bowrn
+          </option>
+          <option
+            value="green-pants"
+          >
+            green
+          </option>
+          <option
+            value="white-pants"
+          >
+            white
+          </option>
+        </select>
+      </label>
+      <label>
+        Add a catch phrase:
+        <input
+          placeholder="input here"
+          type="text"
+          value=""
+        />
+        <button>
+          save
+        </button>
+      </label>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

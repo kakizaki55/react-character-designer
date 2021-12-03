@@ -1,4 +1,51 @@
 .player-container {
   display: flex;
-  display: block;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  width: 420px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 10px 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(39, 162, 187, 0.9416141456582633) 11%,
+    rgba(103, 181, 60, 0.9724264705882353) 19%,
+    rgba(42, 2, 221, 1) 30%,
+    rgba(158, 127, 7, 1) 39%,
+    rgba(114, 124, 8, 1) 45%,
+    rgba(62, 121, 9, 1) 52%,
+    rgba(98, 125, 50, 1) 53%,
+    rgba(120, 128, 75, 1) 60%,
+    rgba(120, 128, 75, 1) 66%,
+    rgba(120, 128, 75, 1) 68%,
+    rgba(75, 128, 106, 1) 69%,
+    rgba(128, 75, 112, 1) 87%
+  );
+}
+.phrase-list {
+  border: black solid 5px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 50px;
+  box-shadow: 5px 10px 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(39, 162, 187, 0.9416141456582633) 11%,
+    rgba(103, 181, 60, 0.9724264705882353) 19%,
+    rgba(62, 121, 9, 1) 34%,
+    rgba(114, 124, 8, 1) 45%,
+    rgba(139, 128, 41, 1) 48%,
+    rgba(42, 2, 221, 1) 63%,
+    rgba(120, 128, 75, 1) 65%,
+    rgba(98, 125, 50, 1) 67%,
+    rgba(120, 128, 75, 1) 68%,
+    rgba(158, 127, 7, 1) 70%,
+    rgba(120, 128, 75, 1) 73%,
+    rgba(75, 128, 106, 1) 76%,
+    rgba(89, 114, 108, 1) 79%,
+    rgba(128, 75, 112, 1) 87%
+  );
 }
