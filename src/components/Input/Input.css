@@ -23,3 +23,28 @@
     rgba(128, 75, 112, 1) 87%
   );
 }
+select {
+  background-color: #90d092;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border: black solid 5px;
+}
+input {
+  background-color: #90d092;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border: black solid 5px;
+}
+button {
+  background-color: #90d092;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border: black solid 5px;
+  border-radius: 50%;
+}
